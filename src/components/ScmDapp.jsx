@@ -1,4 +1,5 @@
 import React from "react";
+// import AddNewProduct from "./AddProduct";
 
 const scmDapp = () => {
   return (
@@ -29,7 +30,8 @@ const scmDapp = () => {
             className="bg-gradient-to-br from-blue-400 to-blue-600  px-6 py-2 rounded-lg
             transition-all ease-in-out duration-100 w-full md:w-auto hover:shadow-lg text-white"
           >
-            Login
+            <a href="http://localhost/SupplyChainDAPP_FULL-Master/index.php">Login</a>
+            {/* <AddNewProduct/> */}
           </button>
           <button
             type="button"
